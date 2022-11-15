@@ -1,4 +1,4 @@
-//Solution
+//My Solution
 // Write a function "greet" that returns "hello world!"
 function greet() {
   const myText = "hello world!";
@@ -6,6 +6,17 @@ function greet() {
 }
 
 greet();
+
+
+//correct answers
+function greet() {
+  return "hello world!";
+}
+//
+const greet = () => "hello world!";
+
+
+
 
 
 //Sample Tests
