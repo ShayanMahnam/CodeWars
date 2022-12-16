@@ -2,6 +2,12 @@
 function countSheeps(arrayOfSheep) {
   return arrayOfSheep.filter((x) => x == true).length;
 }
+
+//
+
+function counting (n) {
+  return n ( n + 1) / 2;
+}
 //Other answers
 function countSheeps(arrayOfSheep) {
   // TODO May the force be with you
