@@ -2,8 +2,8 @@
 
 <img src="https://github.com/ShayanMahnam/CodeWars/blob/master/icon/codewars-orginal.svg" title="CodeWars" alt="CodeWars" width="100" height="100"/>&nbsp;
 
-My solutions for **codewars** kata
+##### My solutions for **codewars** katas
 
-Here you can see other people solutions and compare it with your code.
+Here you can see mine and other people solutions and compare it with your code.
 
-> If you are here to cheat and just copy paste please don't do that and try to understand the code first after that copy paste it :D
+> If you are here to cheat or just copy paste please don't do that and try to understand the code first after that copy paste it :D
