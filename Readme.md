@@ -1,6 +1,6 @@
 ### Codewars
 
-<img src="https://github.com/ShayanMahnam/CodeWars/blob/master/icon/codewars-orginal.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+<img src="https://github.com/ShayanMahnam/CodeWars/blob/master/icon/codewars-orginal.svg" title="CodeWars" alt="CodeWars" width="100" height="100"/>&nbsp;
 
 My solutions for **codewars** kata
 
