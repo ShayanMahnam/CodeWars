@@ -1,10 +1,15 @@
-function isSortedAndHow(arr) {
-  return arr.every((x, i) => i == 0 || arr[i] >= arr[i - 1])
-    ? "yes, ascending"
-    : arr.every((x, i) => i == 0 || arr[i] <= arr[i - 1])
-    ? "yes, descending"
-    : "no";
+function nbDig(n, d) {
+  let k = 0 
+  let arr = []
+   for(let i = 0; i <= n; i++){
+     arr.push(i ** 2);  
+   }
+    arr
+     .filter((x) => x.toString().includes(d))
+     .join("")
+     .split('')
+     .forEach((x) => (x == d ? k++ : null));
+    return k
 }
 
-
-console.log(isSortedAndHow([4,2,3,1]))
+console.log(nbDig(5750,0));
