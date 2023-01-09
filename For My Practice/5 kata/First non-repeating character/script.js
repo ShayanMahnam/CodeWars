@@ -69,7 +69,15 @@ const firstNonRepeatingLetter = (s) =>
   ] || "";
 
 
-
+////gpt answer
+function firstNonRepeatingLetter(string) {
+  for (const c of string) {
+    if (string.indexOf(c) === string.lastIndexOf(c)) {
+      return c;
+    }
+  }
+  return "";
+}
 
 // test
 

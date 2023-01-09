@@ -10,7 +10,24 @@ function validParentheses(parens) {
   return n == 0;
 }
 
+//gpt
 
+function validParentheses(str) {
+  const stack = [];
+  const pairs = { "(": ")", "{": "}", "[": "]" };
+
+  for (const c of str) {
+    if (c in pairs) {
+      stack.push(c);
+    } else if (c in Object.values(pairs)) {
+      if (stack.length === 0 || c !== pairs[stack.pop()]) {
+        return false;
+      }
+    }
+  }
+
+  return stack.length === 0;
+}
 
 // other solutions
 

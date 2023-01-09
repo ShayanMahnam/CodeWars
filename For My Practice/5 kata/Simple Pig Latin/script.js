@@ -103,6 +103,15 @@ function pigIt(str) {
     .join(" ");
 }
 
+//gpt 
+
+function pigIt(str) {
+  return str
+    .split(" ") // split into array of words
+    .map((word) => word.substring(1).concat(word[0] + "ay")) // transform each word
+    .join(" "); // join transformed words into a single string
+}
+
 // test
 
 const Test = require("@codewars/test-compat");

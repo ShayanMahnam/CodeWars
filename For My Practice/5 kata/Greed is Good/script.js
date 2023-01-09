@@ -135,7 +135,39 @@ function score(dice) {
   }, 0);
 }
 
-//
+// gpt answer
+
+function score(dice) {
+  const counts = {
+    1: 0,
+    2: 0,
+    3: 0,
+    4: 0,
+    5: 0,
+    6: 0,
+  };
+
+  for (const die of dice) {
+    counts[die]++;
+  }
+
+  let score = 0;
+  for (const [number, count] of Object.entries(counts)) {
+    if (count >= 3) {
+      score += number * 100;
+      count -= 3;
+    }
+    if (number === 1) {
+      score += count * 100;
+    } else if (number === 5) {
+      score += count * 50;
+    }
+  }
+
+  return score;
+}
+
+
 
 
 
