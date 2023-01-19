@@ -1,15 +1,16 @@
-function nbDig(n, d) {
-  let k = 0 
-  let arr = []
-   for(let i = 0; i <= n; i++){
-     arr.push(i ** 2);  
-   }
-    arr
-     .filter((x) => x.toString().includes(d))
-     .join("")
-     .split('')
-     .forEach((x) => (x == d ? k++ : null));
-    return k
+function disariumNumber(n) {
+  let num = n
+    .toString()
+    .split("")
+    .map((element) => Number(element));
+  console.log(num);
+  let result = 0;
+  for (let i = 0; i < num.length; i++) {
+    console.log(num[i - 1]);
+    console.log(i);
+    result += Math.pow(parseInt(num[i]), i + 1);
+  }
+  return result;
 }
-
-console.log(nbDig(5750,0));
+let input1 = 89;
+console.log(disariumNumber(input1));
