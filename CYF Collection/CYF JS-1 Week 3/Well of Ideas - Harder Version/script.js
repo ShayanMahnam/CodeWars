@@ -48,6 +48,14 @@ function well(x) {
   return count < 1 ? "Fail!" : count <= 2 ? "Publish!" : "I smell a series!";
 }
 
+//
+
+function well(x) {
+  const words = x
+    .flat()
+    .filter((element) => (element + "").toLowerCase() === "good").length;
+  return words > 2 ? "I smell a series!" : words > 0 ? "Publish!" : "Fail!";
+}
 
 
 
