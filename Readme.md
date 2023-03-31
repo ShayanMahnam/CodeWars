@@ -8,6 +8,6 @@ My name is Shayan, I'm student at <a href="https://codeyourfuture.io/" target="_
 
 Here you can see my and other people solutions and compare it with your code.
 
-> If you are here just for copy paste please don't do that and try to understand the code first after that copy paste it :D
+> Solve Katas and Have Fun :D
 
 
